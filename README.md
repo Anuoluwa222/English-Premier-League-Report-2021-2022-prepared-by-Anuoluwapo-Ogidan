@@ -1,12 +1,12 @@
-Introduction
+**Introduction**
 
 Welcome to a thrilling world of data analysis! In this documentation, we will be analyzing the English Premier League 2021/2022 data which aims to provide an analysis and insights into the performance of teams participating in the league. The report leverages data obtained from Kaggle, a reputable online platform for datasets and machine learning projects. Power BI, a powerful data tool, was utilized to analyze and present the data effectively.
 
-Data Source
+**Data Source**
 
 The data for the English Premier League 2021/2022 report was sourced from Kaggle. The dataset contains detailed information about the matches, teams, goals, cards, and other relevant statistics for the season.
 
-Task
+**Task**
 
 Comparison between the Sum of Wins and Losses by Team: This helps analyze the relative performance of teams during the season, identifying the top-performing and struggling teams.
 
@@ -18,17 +18,18 @@ The rate of yellow to red cards given in the season to each team: This will show
 
 Highlighting the matches played, wins, draws, losses, goal difference, and points for each team.
 
-Data Preparation and Transformation
+**Data Preparation and Transformation**
+
 The initial step in the process involved loading the dataset into Power BI and transforming the data through Power Query. The datasets consist of three tables namely; all match results, all players statistics and the point table. The data was inspected for any missing values, duplicate entries, or inconsistencies. Necessary transformations were performed, such as data type conversions, renaming columns and deleting columns not relevant for the analysis. This stage aimed to ensure the data was clean and ready for analysis.
 
-Data Modelling
+**Data Modelling**
 
 After transforming and applying the data into Power BI, data modeling techniques were applied to organize and enhance the dataset's structure. I structured the data and established a relationship between the three tables using appropriate keys. This important step will develop cordial interaction across the tables, measures and calculated columns were created to facilitate further analysis and visualization. The relationship established is shown below:
 
 ![image](https://github.com/Anuoluwa222/English-Premier-League-Report-2021-2022-prepared-by-Anuoluwapo-Ogidan/assets/141835580/27a1282b-e03c-40ae-bd73-7c5553d4e883)
 
 
-Data Exploration and Visualization
+**Data Exploration and Visualization**
 
 After I have established relationship across the tables, I created important calculations that would help this analysis. These calculations include the following key measures; the total points, total wins, total draws, total losses, total goals, total goals in favor, total goals against, total red cards, total yellow cards. These calculations will provide us more insights to understand the data and find useful information.
 
@@ -53,7 +54,8 @@ To analyze the total goals scored by teams, I incorporated a clustered bar chart
 ![image](https://github.com/Anuoluwa222/English-Premier-League-Report-2021-2022-prepared-by-Anuoluwapo-Ogidan/assets/141835580/c85e7337-6f37-4792-909e-8dfe375f0eb6)
 
 
-The rate of yellow to red cards given in the season to each tea
+The rate of yellow to red cards given in the season to each team
+
 I used a 100% stacked bar chart to visualize the rate of yellow and red cards received by teams . The chart showcases the distribution of yellow and red cards across teams. Each team's proportionate share of yellow and red cards is displayed, allowing for a comparison of discipline levels among the teams. The chart aids in identifying the teams with the highest numbers of yellow and red cards as identified below:
 
 ![image](https://github.com/Anuoluwa222/English-Premier-League-Report-2021-2022-prepared-by-Anuoluwapo-Ogidan/assets/141835580/ab79cabc-e389-47c2-aa0e-df52fe43e11b)
