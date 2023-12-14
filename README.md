@@ -1,10 +1,13 @@
 **Introduction**
 
+
 Welcome to a thrilling world of data analysis! In this documentation, we will be analyzing the English Premier League 2021/2022 data which aims to provide an analysis and insights into the performance of teams participating in the league. The report leverages data obtained from Kaggle, a reputable online platform for datasets and machine learning projects. Power BI, a powerful data tool, was utilized to analyze and present the data effectively.
+
 
 **Data Source**
 
 The data for the English Premier League 2021/2022 report was sourced from Kaggle. The dataset contains detailed information about the matches, teams, goals, cards, and other relevant statistics for the season.
+
 
 **Task**
 
@@ -18,9 +21,11 @@ The rate of yellow to red cards given in the season to each team: This will show
 
 Highlighting the matches played, wins, draws, losses, goal difference, and points for each team.
 
+
 **Data Preparation and Transformation**
 
 The initial step in the process involved loading the dataset into Power BI and transforming the data through Power Query. The datasets consist of three tables namely; all match results, all players statistics and the point table. The data was inspected for any missing values, duplicate entries, or inconsistencies. Necessary transformations were performed, such as data type conversions, renaming columns and deleting columns not relevant for the analysis. This stage aimed to ensure the data was clean and ready for analysis.
+
 
 **Data Modelling**
 
@@ -81,6 +86,7 @@ Insights and Recommendations
 3. Teams with a high number of yellow and red cards may need to focus on improving discipline on the field.
 4. Observing the distribution of wins, draws, and losses can uncover interesting trends and patterns.
 These insights can help teams identify their strengths and weaknesses, evaluate their performance, and develop strategies for improvement.
+
 
 Conclusions
 
